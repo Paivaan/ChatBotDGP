@@ -143,3 +143,10 @@ stories:
   - action: utter_greet
   - intent: nutricionista
   - action: utter_nutricionista
+
+- story: remedio path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: remedio
+  - action: utter_remedio

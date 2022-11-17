@@ -96,6 +96,7 @@ nlu:
 - intent: low_pain
   examples: |
     - Um
+    - dois
     - Dois
     - Três
     - tres
@@ -129,6 +130,13 @@ nlu:
     - não sei onde está o
     - não acho o
     - não estou achando o
+    - não estou achando meus
+    - onde estão meus
+    - onde estao meus
+    - cade meus
+    - cade o meu
+    - cade os meus
+    - cade meu
     - onde está o
     - Esqueci onde está a
     - não sei onde está a
@@ -190,14 +198,14 @@ nlu:
 
 - intent: neurologista
   examples: |
-  - estou com uma dor de cabeça terrível
-  - estou com muita dor de cabeça
-  - estou esquecendo de muita coisa e com muita frequência
-  - estou esquecido
-  - estou com problemas de reação
-  - estou com dor de cabeça muito forte
-  - estou com dor de cabeça forte
-  - estou me esquecendo muito rápido
+    - estou com uma dor de cabeça terrível
+    - estou com muita dor de cabeça
+    - estou esquecendo de muita coisa e com muita frequência
+    - estou esquecido
+    - estou com problemas de reação
+    - estou com dor de cabeça muito forte
+    - estou com dor de cabeça forte
+    - estou me esquecendo muito rápido
 
 - intent: alongamentos
   examples: |
@@ -234,6 +242,17 @@ nlu:
     - Comida saudável
     - Quero comer uma comida melhor
     - quero comer melhor
+
+- intent: remedio
+  examples: |
+    - Qual remédio devo tomar?
+    - remedio
+    - remédio
+    - remédio para dor de cabeça
+    - remédio dor
+    - remédio dor no corpo
+    - qual remédio
+    - que tipo de remédio
 
 - intent: bot_challenge
   examples: |

@@ -23,7 +23,8 @@ intents:
   - exercicios
   - mood_unhappy
   - nutricionista
-
+  - remedio
+  
 responses:
   utter_greet:
   - text: "Olá, como posso ajudá-lo?"
@@ -94,6 +95,9 @@ responses:
 
   utter_nutricionista:
   - text: "Procure comer alimentos ricos em fibras e vitaminas! Para mais informações consulte um nutricionista, tenho certeza que ele irá poder te ajudar em uma alimentação mais saudável!"
+
+  utter_remedio:
+  - text: "Não posso te receitar remédios, a automedicação pode causar reações alérgicas, intoxicação e outros efeitos colaterais. Por favor, procure um profissional!"
 
 session_config:
   session_expiration_time: 60
