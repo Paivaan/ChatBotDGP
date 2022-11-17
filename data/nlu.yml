@@ -188,7 +188,7 @@ nlu:
   - socorro
   - morri
 
-- intent: esquecimento_neurologista
+- intent: neurologista
   examples: |
   - estou com uma dor de cabeça terrível
   - estou com muita dor de cabeça
