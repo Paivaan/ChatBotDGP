@@ -198,7 +198,12 @@ nlu:
   - estou com dor de cabeça muito forte
   - estou com dor de cabeça forte
   - estou me esquecendo muito rápido
-
+  - o que eu vim fazer aqui?
+  - o que estou fazendo aqui?
+  - o que eu vim fazer mesmo?
+  - esqueci o que ia fazer
+  - o que eu ia fazer mesmo?
+  
 - intent: alongamentos
   examples: |
   - Qual exercício posso fazer para me alongar?
