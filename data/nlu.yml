@@ -136,25 +136,68 @@ nlu:
   - não estou achando a
   - onde está a
 
-- intent:
+- intent: dor_ossos
   examples: |
-  -
-  -
+  - Estou com dor nos ossos
+  - Estou com dor nas juntas
+  - Minhas juntas doem
+  - Minhas articulações doem
+  - Meus ossos doem
+  - Estou com dor nos músculos
+  - Meus músculos doem
+  - Que dor nos músculos!
+  - Que dor no corpo
+  - Minhas costas estão me matando
+  - Ai que dor nas costas
+  - Dor nas costas
+  - Dor nos músculos
+  - Dor nas juntas
+  - Dor nas articulações
 
-- intent:
+- intent: dor_cardiologista
   examples: |
-  -
-  -
+  - meu coracao quer pular fora do peito
+  - estou com dor no coração
+  - que dor no coração
+  - que dor no peito
+  - aiq dor no fundo do meu peito
+  - meu coração está muito acelerado
+  - não estou sentindo minha pulsação
+  - minha pulsação está muito elevado
+  - minha pulsação está muito alta
+  - estou com taquicardia
+  - ai que dor no coração
+  - dor no coração
+  - dor no peito
+  
+- intent: passando_mal
+  examples: |
+  - estou passando mal
+  - socorro, estou passando mal
+  - estou passando muito mal
+  - não estou me sentindo bem
+  - estou com muita dor
+  - estou quase morrendo
+  - estou morrendo
+  - que dor que estou sentindo
+  - essa dor está me matando
+  - ai que dor, não estou aguentando
+  - não estou aguentando de dor
+  - socorro, estou com muita dor
+  - socorro, preciso de ajuda
+  - socorro
+  - morri
 
-- intent:
+- intent: esquecimento_neurologista
   examples: |
-  -
-  -
-
-- intent:
-  examples: |
-  -
-  -
+  - estou com uma dor de cabeça terrível
+  - estou com muita dor de cabeça
+  - estou esquecendo de muita coisa e com muita frequência
+  - estou esquecido
+  - estou com problemas de reação
+  - estou com dor de cabeça muito forte
+  - estou com dor de cabeça forte
+  - estou me esquecendo muito rápido
 
 - intent:
   examples: |
