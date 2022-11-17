@@ -121,119 +121,119 @@ nlu:
 
 - intent: esquecimento
   examples: |
-  - Estou me sentindo esquecido
-  - Acho que esqueci alguma coisa
-  - Acho que eu esqueci alguma coisa
-  - estou esquecendo algo
-  - Esqueci onde está o
-  - não sei onde está o
-  - não acho o
-  - não estou achando o
-  - onde está o
-  - Esqueci onde está a
-  - não sei onde está a
-  - não acho a
-  - não estou achando a
-  - onde está a
+    - Estou me sentindo esquecido
+    - Acho que esqueci alguma coisa
+    - Acho que eu esqueci alguma coisa
+    - estou esquecendo algo
+    - Esqueci onde está o
+    - não sei onde está o
+    - não acho o
+    - não estou achando o
+    - onde está o
+    - Esqueci onde está a
+    - não sei onde está a
+    - não acho a
+    - não estou achando a
+    - onde está a
 
 - intent: dor_ossos
   examples: |
-  - Estou com dor nos ossos
-  - Estou com dor nas juntas
-  - Minhas juntas doem
-  - Minhas articulações doem
-  - Meus ossos doem
-  - Estou com dor nos músculos
-  - Meus músculos doem
-  - Que dor nos músculos!
-  - Que dor no corpo
-  - Minhas costas estão me matando
-  - Ai que dor nas costas
-  - Dor nas costas
-  - Dor nos músculos
-  - Dor nas juntas
-  - Dor nas articulações
+    - Estou com dor nos ossos
+    - Estou com dor nas juntas
+    - Minhas juntas doem
+    - Minhas articulações doem
+    - Meus ossos doem
+    - Estou com dor nos músculos
+    - Meus músculos doem
+    - Que dor nos músculos!
+    - Que dor no corpo
+    - Minhas costas estão me matando
+    - Ai que dor nas costas
+    - Dor nas costas
+    - Dor nos músculos
+    - Dor nas juntas
+    - Dor nas articulações
 
 - intent: dor_cardiologista
   examples: |
-  - meu coracao quer pular fora do peito
-  - estou com dor no coração
-  - que dor no coração
-  - que dor no peito
-  - aiq dor no fundo do meu peito
-  - meu coração está muito acelerado
-  - não estou sentindo minha pulsação
-  - minha pulsação está muito elevado
-  - minha pulsação está muito alta
-  - estou com taquicardia
-  - ai que dor no coração
-  - dor no coração
-  - dor no peito
+    - meu coracao quer pular fora do peito
+    - estou com dor no coração
+    - que dor no coração
+    - que dor no peito
+    - aiq dor no fundo do meu peito
+    - meu coração está muito acelerado
+    - não estou sentindo minha pulsação
+    - minha pulsação está muito elevado
+    - minha pulsação está muito alta
+    - estou com taquicardia
+    - ai que dor no coração
+    - dor no coração
+    - dor no peito
   
 - intent: passando_mal
   examples: |
-  - estou passando mal
-  - socorro, estou passando mal
-  - estou passando muito mal
-  - não estou me sentindo bem
-  - estou com muita dor
-  - estou quase morrendo
-  - estou morrendo
-  - que dor que estou sentindo
-  - essa dor está me matando
-  - ai que dor, não estou aguentando
-  - não estou aguentando de dor
-  - socorro, estou com muita dor
-  - socorro, preciso de ajuda
-  - socorro
-  - morri
+    - estou passando mal
+    - socorro, estou passando mal
+    - estou passando muito mal
+    - não estou me sentindo bem
+    - estou com muita dor
+    - estou quase morrendo
+    - estou morrendo
+    - que dor que estou sentindo
+    - essa dor está me matando
+    - ai que dor, não estou aguentando
+    - não estou aguentando de dor
+    - socorro, estou com muita dor
+    - socorro, preciso de ajuda
+    - socorro
+    - morri
 
 - intent: neurologista
   examples: |
-  - estou com uma dor de cabeça terrível
-  - estou com muita dor de cabeça
-  - estou esquecendo de muita coisa e com muita frequência
-  - estou esquecido
-  - estou com problemas de reação
-  - estou com dor de cabeça muito forte
-  - estou com dor de cabeça forte
-  - estou me esquecendo muito rápido
+    - estou com uma dor de cabeça terrível
+    - estou com muita dor de cabeça
+    - estou esquecendo de muita coisa e com muita frequência
+    - estou esquecido
+    - estou com problemas de reação
+    - estou com dor de cabeça muito forte
+    - estou com dor de cabeça forte
+    - estou me esquecendo muito rápido
 
 - intent: alongamentos
   examples: |
-  - Qual exercício posso fazer para me alongar?
-  - quero me alongar
-  - quero fazer alguns alongamentos
-  - quero fazer uns alongamentos
-  - Fazer uns alongamentos
-  - preciso me alongar
-  - estou muito travado
-  - estou me sentindo travado
-  - alongar
-  - alongamento
-  - preciso alongar
-  - preciso de alongamentos
+    - Qual exercício posso fazer para me alongar?
+    - quero me alongar
+    - quero fazer alguns alongamentos
+    - quero fazer uns alongamentos
+    - Fazer uns alongamentos
+    - preciso me alongar
+    - estou muito travado
+    - estou me sentindo travado
+    - alongar
+    - alongamento
+    - preciso alongar
+    - preciso de alongamentos
 
 - intent: exercicios
   examples: |
-  - Quero me exercitar
-  - Gostaria de fazer alguns exercícios
-  - Gostaria de fazer uns exercícios
-  - fazer uns exercícios
-  - preciso me exercitar
-  - exercitar
-  - exercícios
+    - Quero me exercitar
+    - Gostaria de fazer alguns exercícios
+    - Gostaria de fazer uns exercícios
+    - fazer uns exercícios
+    - preciso me exercitar
+    - exercitar
+    - exercícios
 
 - intent: nutricionista
   examples: |
-  - Quero me alimentar melhor
-  - Como posso me alimentar melhor?
-  - Alimentação saudável
-  - Alimentar melhor
-  - Alimentação melhor
-  - Comida saudável
-  - Quero comer uma comida melhor
-  - quero comer melhor
+    - Quero me alimentar melhor
+    - Como posso me alimentar melhor?
+    - Alimentação saudável
+    - Alimentar melhor
+    - Alimentação melhor
+    - Comida saudável
+    - Quero comer uma comida melhor
+    - quero comer melhor
 
 - intent: bot_challenge
   examples: |

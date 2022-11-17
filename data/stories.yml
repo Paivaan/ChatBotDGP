@@ -8,7 +8,6 @@ stories:
   - action: utter_greet
   - intent: mood_great
   - action: utter_happy
-  - action: utter_goodbye
 
 - story: pain path 1
   steps:
@@ -20,7 +19,6 @@ stories:
   - action: utter_filter_pain
   - intent: low_pain
   - action: utter_recomendation_pain1
-  - action: utter_goodbye
 
 - story: pain path 2
   steps:
@@ -32,7 +30,6 @@ stories:
   - action: utter_filter_pain
   - intent: medium_pain
   - action: utter_recomendation_pain2
-  - action: utter_goodbye
 
 - story: pain path 3
   steps:
@@ -44,7 +41,6 @@ stories:
   - action: utter_filter_pain
   - intent: high_pain
   - action: utter_recomendation_pain3
-  - action: utter_goodbye
 
 - story: desanimado_path
   steps:
@@ -55,7 +51,6 @@ stories:
   - intent: mood_desanimado
   - action: utter_desanimado
   - action: utter_sol_desanimado
-  - action: utter_goodbye
   
 - story: outro_path
   steps:
@@ -65,30 +60,29 @@ stories:
   - action: utter_filter
   - intent: outro
   - action: utter_outro
-  - action: utter_goodbye
 
-- story: esquecimento 
+- story: esquecimento path
   steps:
   - intent: greet
   - action: utter_greet
   - intent: esquecimento
   - action: utter_esquecimento
 
-- story: dor nos ossos
+- story: dor nos ossos path
   steps:
   - intent: greet
   - action: utter_greet
   - intent: dor_ossos
   - action: utter_ortopedista
 
-- story: dor cardiologista
+- story: dor cardiologista path
   steps:
   - intent: greet
   - action: utter_greet
   - intent: dor_cardiologista
   - action: utter_cardiologista
 
-- story: passando_mal
+- story: passando_mal path
   steps:
   - intent: greet
   - action: utter_greet
@@ -96,41 +90,37 @@ stories:
   - action: utter_passandomal
 
 
-- story: 
+- story: neurologista path
   steps:
   - intent: greet
   - action: utter_greet
   - intent: neurologista
   - action: utter_neurologista
 
-- story: 
+- story: alongamentos path
   steps:
   - intent: greet
   - action: utter_greet
   - intent: alongamentos
   - action: utter_alongamentos
-  - action: utter_goodbye
 
-- story: 
+- story: exercicios path
   steps:
   - intent: greet
   - action: utter_greet
   - intent: exercicios
   - action: utter_exercicios
-  - action: utter_goodbye
 
-- story: 
+- story: psicologo path
   steps:
   - intent: greet
   - action: utter_greet
   - intent: mood_unhappy
   - action: utter_psicologo
-  - action: utter_goodbye
 
-- story: 
+- story: nutricionista path
   steps:
   - intent: greet
   - action: utter_greet
   - intent: nutricionista
   - action: utter_nutricionista
-  - action: utter_goodbye
