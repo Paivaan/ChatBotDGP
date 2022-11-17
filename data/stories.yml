@@ -99,33 +99,37 @@ stories:
   steps:
   - intent: greet
   - action: utter_greet
-  - intent:
-  - action:
+  - intent: neurologista
+  - action: utter_neurologista
 
 - story: 
   steps:
   - intent: greet
   - action: utter_greet
-  - intent:
-  - action:
+  - intent: alongamentos
+  - action: utter_alongamentos
+  - action: utter_goodbye
 
 - story: 
   steps:
   - intent: greet
   - action: utter_greet
-  - intent:
-  - action:
+  - intent: exercicios
+  - action: utter_exercicios
+  - action: utter_goodbye
 
 - story: 
   steps:
   - intent: greet
   - action: utter_greet
-  - intent:
-  - action:
+  - intent: mood_unhappy
+  - action: utter_psicologo
+  - action: utter_goodbye
 
 - story: 
   steps:
   - intent: greet
   - action: utter_greet
-  - intent:
-  - action:
+  - intent: nutricionista
+  - action: utter_nutricionista
+  - action: utter_goodbye

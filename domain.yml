@@ -21,6 +21,7 @@ intents:
   - neurologista
   - alongamentos
   - exercicios
+  - mood_unhappy
   - nutricionista
 
 responses:
