@@ -17,14 +17,14 @@ intents:
 
 responses:
   utter_greet:
-  - text: "Olá, tudo bem?"
+  - text: "Olá, como posso ajudá-lo?"
 
   utter_cheer_up:
   - text: "Aqui está algo para animá-lo:"
     image: "https://i.imgur.com/nGF1K8f.jpg"
 
   utter_filter:
-  - text: "O que você está sentindo?  > Dor ou desconforto  > Desanimação  > Estou me sentindo aflito  > Outro"
+  - text: "O que você está sentindo?  > Dor ou desconforto  > Desanimação  > Outro"
 
   utter_filter_pain:
   - text: "Em uma escala de 1 a 10, qual o nível da sua dor?   (OBS: Escreva por extenso o número)"
