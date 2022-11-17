@@ -59,6 +59,33 @@ responses:
   utter_iamabot:
   - text: "Sou um robô, fico a disposição de ajudá-lo."
 
+  utter_esquecimento:
+  - text: "Tente lembrar os últimos lugares que deixou o objeto, acredito que isso irá ajudar!" 
+
+  utter_ortopedista:
+  - text: "Sério? Procure um ortopedista para manter a saúde dos ossos e músculos em dia!"
+
+  utter_cardiologista:
+  - text: "Isso pode ser grave! Procoure um cardiologista o quanto antes para melhores instruções e exames!"
+
+  utter_passandomal:
+  -text: "Isso pode ser ruim...Procure um familiar para poder te levar ao pronto-socorro! Também há o serviço do SAMU para atende-lo pelo número 192!"
+
+  utter_neurologista:
+  -text: "Em caso de esquecimentos reccorentes, dores de cabeça muito fortes procure um neurologista! Atenção para os sinais de AVC como mãos tremendo e dificuldades para erguer os braços!"
+
+  utter_alongamentos:
+  -text: "Procure fazer alongamentos todos os dias! Isso irá ajudar em suas elasticidade e fluxo sanguíneo! Acesse esse link que mostra alguns execícios básicos que você pode estar fazendo! https://www.youtube.com/watch?v=OwCTukZyEmA"
+
+  utter_exercicios:
+  -text: "Que bacana! Exercícios físicos deixam você mais revigorado e animado, vamos começar os treinos então! Algumas sugestões de exercícios físicos para você: https://www.clinicaceu.com.br/blog/atividades-fisicas-para-idosos-indicadas/ "
+
+  utter_psicologo:
+  -text: "Vai passar! Por que não conversar sobre isso com um psicolólogo?"
+
+  utter_nutricionista:
+  -text: "Procure comer alimentos ricos em fibras e vitaminas! Para mais informações consulte um nutricionista, tenho certeza que ele irá poder te ajudar em uma alimentação mais saudável!"
+
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
