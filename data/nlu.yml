@@ -117,6 +117,63 @@ nlu:
     - Outro
     - outr
 
+- intent: esquecimento
+  examples: |
+  - Estou me sentindo esquecido
+  - Acho que esqueci alguma coisa
+  - Acho que eu esqueci alguma coisa
+  - estou esquecendo algo
+  - Esqueci onde está o
+  - não sei onde está o
+  - não acho o
+  - não estou achando o
+  - onde está o
+  - Esqueci onde está a
+  - não sei onde está a
+  - não acho a
+  - não estou achando a
+  - onde está a
+
+- intent:
+  examples: |
+  -
+  -
+
+- intent:
+  examples: |
+  -
+  -
+
+- intent:
+  examples: |
+  -
+  -
+
+- intent:
+  examples: |
+  -
+  -
+
+- intent:
+  examples: |
+  -
+  -
+
+- intent:
+  examples: |
+  -
+  -
+
+- intent:
+  examples: |
+  -
+  -
+
+- intent:
+  examples: |
+  -
+  -
+
 - intent: bot_challenge
   examples: |
     - você é um robô?
