@@ -67,33 +67,34 @@ stories:
   - action: utter_outro
   - action: utter_goodbye
 
-- story: 
+- story: esquecimento 
   steps:
   - intent: greet
   - action: utter_greet
-  - intent:
-  - action:
+  - intent: esquecimento
+  - action: utter_esquecimento
 
-- story: 
+- story: dor nos ossos
   steps:
   - intent: greet
   - action: utter_greet
-  - intent:
-  - action:
+  - intent: dor_ossos
+  - action: utter_ortopedista
 
-- story: 
+- story: dor cardiologista
   steps:
   - intent: greet
   - action: utter_greet
-  - intent:
-  - action:
+  - intent: dor_cardiologista
+  - action: utter_cardiologista
 
-- story: 
+- story: passando_mal
   steps:
   - intent: greet
   - action: utter_greet
-  - intent:
-  - action:
+  - intent: passando_mal
+  - action: utter_passandomal
+
 
 - story: 
   steps:
