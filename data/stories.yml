@@ -82,13 +82,32 @@ stories:
   - intent: dor_cardiologista
   - action: utter_cardiologista
 
-- story: passando_mal path
+- story: passando_mal path 1
   steps:
   - intent: greet
   - action: utter_greet
   - intent: passando_mal
-  - action: utter_passandomal
+  - action: utter_filter_pain
+  - intent: low_pain
+  - action: utter_recomendation_pain1
 
+- story: passando_mal path 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: passando_mal
+  - action: utter_filter_pain
+  - intent: medium_pain
+  - action: utter_recomendation_pain2
+
+- story: passando_mal path 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: passando_mal
+  - action: utter_filter_pain
+  - intent: medium_pain
+  - action: utter_recomendation_pain2
 
 - story: neurologista path
   steps:
