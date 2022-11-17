@@ -66,6 +66,8 @@ nlu:
     - estou muito triste
     - estou infeliz
     - estou aflito
+    - estou me sentindo sozinho
+    - não tenho companhia
 
 - intent: mood_not_well
   examples: |
@@ -159,20 +161,41 @@ nlu:
   -
   -
 
-- intent:
+- intent: alongamentos
   examples: |
-  -
-  -
+  - Qual exercício posso fazer para me alongar?
+  - quero me alongar
+  - quero fazer alguns alongamentos
+  - quero fazer uns alongamentos
+  - Fazer uns alongamentos
+  - preciso me alongar
+  - estou muito travado
+  - estou me sentindo travado
+  - alongar
+  - alongamento
+  - preciso alongar
+  - preciso de alongamentos
 
-- intent:
+- intent: exercicios
   examples: |
-  -
-  -
+  - Quero me exercitar
+  - Gostaria de fazer alguns exercícios
+  - Gostaria de fazer uns exercícios
+  - fazer uns exercícios
+  - preciso me exercitar
+  - exercitar
+  - exercícios
 
-- intent:
+- intent: nutricionista
   examples: |
-  -
-  -
+  - Quero me alimentar melhor
+  - Como posso me alimentar melhor?
+  - Alimentação saudável
+  - Alimentar melhor
+  - Alimentação melhor
+  - Comida saudável
+  - Quero comer uma comida melhor
+  - quero comer melhor
 
 - intent: bot_challenge
   examples: |
