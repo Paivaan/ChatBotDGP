@@ -4,30 +4,60 @@ intents:
   - greet
   - goodbye
   - affirm
-  - deny
   - mood_great
-  - mood_unhappy
+  - mood_pain
+  - mood_desanimado
   - bot_challenge
+  - mood_not_well
+  - low_pain
+  - medium_pain
+  - high_pain
+  - outro
+  - deny
 
 responses:
   utter_greet:
-  - text: "Hey! How are you?"
+  - text: "Olá, tudo bem?"
 
   utter_cheer_up:
-  - text: "Here is something to cheer you up:"
+  - text: "Aqui está algo para animá-lo:"
     image: "https://i.imgur.com/nGF1K8f.jpg"
 
+  utter_filter:
+  - text: "O que você está sentindo?  > Dor ou desconforto  > Desanimação  > Estou me sentindo aflito  > Outro"
+
+  utter_filter_pain:
+  - text: "Em uma escala de 1 a 10, qual o nível da sua dor?   (OBS: Escreva por extenso o número)"
+
+  utter_recomendation_pain1:
+  - text: "Nessa situação, o ideal é que você procure um check-up em um médico geral para entender melhor sua situação e prevenir de possíveis problemas futuros"
+
+  utter_recomendation_pain2:
+  - text: "Procure um  médico especialista ou um médico geral para melhores informações."
+
+  utter_recomendation_pain3:
+  - text: "Vá imediatamente para um hospital! Caso necessário, utilize do Serviço de Atendimento Móvel de Urgência (SAMU 192)"
+
   utter_did_that_help:
-  - text: "Did that help you?"
+  - text: "Consegui te ajudar?"
 
   utter_happy:
-  - text: "Great, carry on!"
+  - text: "Perfeito, se cuida!"
 
   utter_goodbye:
-  - text: "Bye"
+  - text: "Até mais :)"
+
+  utter_desanimado:
+  - text: "Poxa...farei o possível pra te ajudar! Está se sentindo desanimado(a), tedioso(a), gostaria de fazer algo?"
+
+  utter_sol_desanimado:
+  - text: "Bom, se esse é o caso, separei várias atividades recreativas que existem aqui em Sorocaba para você poder conferir! Algumas boas ideias do que fazer:   - Passeio no Shopping Iguatemi Esplanada   - Andadinha na pista de Caminhada do Campolim   - Compras no CEAGESP Sorocaba   - Visita ao Jardim Botânico Irmãos Vilas Boas   - Conectar-se com a natureza no Parque Natural Municipal Chico Mendes   - Caminhada no Parque Natural Municipal da Água Vermelha   - Conhecer a Catedral Metropolitana de Sorocaba."
+
+  utter_outro:
+  - text: "Para entendermos melhor o que você está sentindo, entre em contato com a nossa ouvidoria, onde você será atendido(a) por especialistas. Ligue +55 14 99770-6335"
 
   utter_iamabot:
-  - text: "I am a bot, powered by Rasa."
+  - text: "Sou um robô, fico a disposição de ajudá-lo."
 
 session_config:
   session_expiration_time: 60
