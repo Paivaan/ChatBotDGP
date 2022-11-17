@@ -14,6 +14,14 @@ intents:
   - high_pain
   - outro
   - deny
+  - esquecimento
+  - dor_ossos
+  - dor_cardiologista
+  - passando_mal
+  - neurologista
+  - alongamentos
+  - exercicios
+  - nutricionista
 
 responses:
   utter_greet:
