@@ -199,11 +199,6 @@ nlu:
   - estou com dor de cabeça forte
   - estou me esquecendo muito rápido
 
-- intent:
-  examples: |
-  -
-  -
-
 - intent: alongamentos
   examples: |
   - Qual exercício posso fazer para me alongar?
