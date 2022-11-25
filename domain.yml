@@ -76,7 +76,7 @@ responses:
   - text: "Procure um ortopedista para manter a saúde dos ossos e músculos em dia!"
 
   utter_cardiologista:
-  - text: "Isso pode ser grave! Procoure um cardiologista o quanto antes para melhores instruções e exames!"
+  - text: "Isso pode ser grave! Procure um cardiologista o quanto antes para melhores instruções e exames! E não se esqueça, o cardiologista é o médico que cuida do coração e do sistema circulatório. Assim, é responsável por diagnosticar e tratar as doenças que envolvem os componentes deste sistema. De acordo com a Organização Mundial da Saúde (OMS), as doenças cardiovasculares são as principais causas de morte no mundo!"
 
   utter_passandomal:
   - text: "Isso pode ser ruim...Procure um familiar para poder te levar ao pronto-socorro! Também há o serviço do SAMU para atende-lo pelo número 192!"
