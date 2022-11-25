@@ -92,6 +92,7 @@ nlu:
     - Desanimação
     - Desanimado
     - Desanimado
+    - desanimo
     
 - intent: low_pain
   examples: |
@@ -246,13 +247,15 @@ nlu:
 - intent: remedio
   examples: |
     - Qual remédio devo tomar?
+    - Qual remédio devo tomar agora?
+    - quais remédios devo tomar hoje?
+    - qual remédio devo tomar hoje?
     - remedio
     - remédio
-    - remédio para dor de cabeça
-    - remédio dor
-    - remédio dor no corpo
     - qual remédio
-    - que tipo de remédio
+    - que tipo de remédio devo tomar hoje?
+    - quais remédios?
+    - quais tipos de remédios
 
 - intent: bot_challenge
   examples: |

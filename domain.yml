@@ -34,10 +34,10 @@ responses:
     image: "https://i.imgur.com/nGF1K8f.jpg"
 
   utter_filter:
-  - text: "O que você está sentindo?  > Dor ou desconforto  > Desanimação  > Outro"
+  - text: "O que você está sentindo?"
 
   utter_filter_pain:
-  - text: "Em uma escala de 1 a 10, qual o nível da sua dor?   (OBS: Escreva por extenso o número)"
+  - text: "Em uma escala de 1 a 10, qual o nível da sua dor?  (OBS: Escreva por extenso o número)"
 
   utter_recomendation_pain1:
   - text: "Nessa situação, o ideal é que você procure um check-up em um médico geral para entender melhor sua situação e prevenir de possíveis problemas futuros"
@@ -58,7 +58,7 @@ responses:
   - text: "Até mais :)"
 
   utter_desanimado:
-  - text: "Poxa...farei o possível pra te ajudar! Está se sentindo desanimado(a), tedioso(a), gostaria de fazer algo?"
+  - text: "Poxa...farei o possível pra te ajudar! Está se sentindo desanimado, tedioso, gostaria de fazer algo?"
 
   utter_sol_desanimado:
   - text: "Bom, se esse é o caso, separei várias atividades recreativas que existem aqui em Sorocaba para você poder conferir! Algumas boas ideias do que fazer:   - Passeio no Shopping Iguatemi Esplanada   - Andadinha na pista de Caminhada do Campolim   - Compras no CEAGESP Sorocaba   - Visita ao Jardim Botânico Irmãos Vilas Boas   - Conectar-se com a natureza no Parque Natural Municipal Chico Mendes   - Caminhada no Parque Natural Municipal da Água Vermelha   - Conhecer a Catedral Metropolitana de Sorocaba."
@@ -73,7 +73,7 @@ responses:
   - text: "Tente lembrar os últimos lugares que deixou o objeto, acredito que isso irá ajudar!" 
 
   utter_ortopedista:
-  - text: "Sério? Procure um ortopedista para manter a saúde dos ossos e músculos em dia!"
+  - text: "Procure um ortopedista para manter a saúde dos ossos e músculos em dia!"
 
   utter_cardiologista:
   - text: "Isso pode ser grave! Procoure um cardiologista o quanto antes para melhores instruções e exames!"
@@ -88,16 +88,16 @@ responses:
   - text: "Procure fazer alongamentos todos os dias! Isso irá ajudar em suas elasticidade e fluxo sanguíneo! Acesse esse link que mostra alguns execícios básicos que você pode estar fazendo! https://www.youtube.com/watch?v=OwCTukZyEmA"
 
   utter_exercicios:
-  - text: "Que bacana! Exercícios físicos deixam você mais revigorado e animado, vamos começar os treinos então! Algumas sugestões de exercícios físicos para você: https://www.clinicaceu.com.br/blog/atividades-fisicas-para-idosos-indicadas/ "
+  - text: "Que bacana! Exercícios físicos deixam você mais revigorado e animado, vamos começar os treinos então! Algumas sugestões de exercícios físicos para você: 1. Natação  2. Hidroginástica  3. Caminhada  4. Alongamento  5. Musculação  6. Dança  7. Pilates"
 
   utter_psicologo:
-  - text: "Vai passar! Por que não conversar sobre isso com um psicolólogo?"
+  - text: "Por que não conversar sobre isso com um psicolólogo ou alguma pessoa próxima?"
 
   utter_nutricionista:
   - text: "Procure comer alimentos ricos em fibras e vitaminas! Para mais informações consulte um nutricionista, tenho certeza que ele irá poder te ajudar em uma alimentação mais saudável!"
 
   utter_remedio:
-  - text: "Não posso te receitar remédios, a automedicação pode causar reações alérgicas, intoxicação e outros efeitos colaterais. Por favor, procure um profissional!"
+  - text: "Hoje você deve tomar: Glifage para sua diabetes (2 comprimidos durante o café da manhã e 2 durante o jantar) e Losartana para pressão alta (às 10 horas)"
 
 session_config:
   session_expiration_time: 60
