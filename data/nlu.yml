@@ -1,5 +1,4 @@
 version: "3.1"
-
 nlu:
 - intent: greet
   examples: |
@@ -12,7 +11,6 @@ nlu:
     - bom dia
     - boa tarde
     - boa noite
-
 - intent: goodbye
   examples: |
     - até mais
@@ -22,7 +20,6 @@ nlu:
     - adeus
     - adeusinho
     - até a próxima
-
 - intent: affirm
   examples: |
     - sim
@@ -31,7 +28,6 @@ nlu:
     - certo
     - correto
     - exato
-
 - intent: deny
   examples: |
     - não
@@ -40,7 +36,6 @@ nlu:
     - acho que não
     - sem chances
     - na verdade não
-
 - intent: mood_great
   examples: |
     - perfeito
@@ -55,7 +50,6 @@ nlu:
     - maravilhoso
     - magistral
     - genial
-
 - intent: mood_unhappy
   examples: |
     - estou desapontado
@@ -68,7 +62,6 @@ nlu:
     - estou aflito
     - estou me sentindo sozinho
     - não tenho companhia
-
 - intent: mood_not_well
   examples: |
     - não estou muito bem
@@ -78,22 +71,17 @@ nlu:
     - acho que não estou normal
     - não estou normal
     - estou diferente
-
 - intent: mood_pain
   examples: |
     - Dor ou desconforto
-    - Dor ou desconforto
     - Dor
     - Desconforto
-
+    - dor
 - intent: mood_desanimado
   examples: |
     - Desanimação
-    - Desanimação
-    - Desanimado
     - Desanimado
     - desanimo
-    
 - intent: low_pain
   examples: |
     - Um
@@ -102,25 +90,23 @@ nlu:
     - Três
     - tres
     - Quatro
-
 - intent: medium_pain
   examples: |
     - cinco
     - seis
     - sete
-
 - intent: high_pain
   examples: |
     - oito
     - nove
     - dez
-
 - intent: outro
   examples: |
     - outro
     - Outro
     - outr
-
+    - não sei muito bem
+    - não sei
 - intent: esquecimento
   examples: |
     - Estou me sentindo esquecido
@@ -144,7 +130,6 @@ nlu:
     - não acho a
     - não estou achando a
     - onde está a
-
 - intent: dor_ossos
   examples: |
     - Estou com dor nos ossos
@@ -162,7 +147,6 @@ nlu:
     - Dor nos músculos
     - Dor nas juntas
     - Dor nas articulações
-
 - intent: dor_cardiologista
   examples: |
     - meu coracao quer pular fora do peito
@@ -178,7 +162,6 @@ nlu:
     - ai que dor no coração
     - dor no coração
     - dor no peito
-  
 - intent: passando_mal
   examples: |
     - estou passando mal
@@ -196,7 +179,6 @@ nlu:
     - socorro, preciso de ajuda
     - socorro
     - morri
-
 - intent: neurologista
   examples: |
     - estou com uma dor de cabeça terrível
@@ -207,7 +189,6 @@ nlu:
     - estou com dor de cabeça muito forte
     - estou com dor de cabeça forte
     - estou me esquecendo muito rápido
-
 - intent: alongamentos
   examples: |
     - Qual exercício posso fazer para me alongar?
@@ -222,7 +203,6 @@ nlu:
     - alongamento
     - preciso alongar
     - preciso de alongamentos
-
 - intent: exercicios
   examples: |
     - Quero me exercitar
@@ -232,7 +212,6 @@ nlu:
     - preciso me exercitar
     - exercitar
     - exercícios
-
 - intent: nutricionista
   examples: |
     - Quero me alimentar melhor
@@ -243,7 +222,6 @@ nlu:
     - Comida saudável
     - Quero comer uma comida melhor
     - quero comer melhor
-
 - intent: remedio
   examples: |
     - Qual remédio devo tomar?
@@ -256,7 +234,6 @@ nlu:
     - que tipo de remédio devo tomar hoje?
     - quais remédios?
     - quais tipos de remédios
-
 - intent: bot_challenge
   examples: |
     - você é um robô?

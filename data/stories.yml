@@ -150,3 +150,64 @@ stories:
   - action: utter_greet
   - intent: remedio
   - action: utter_remedio
+- story: interactive_story_1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_not_well
+  - action: utter_filter
+  - intent: mood_pain
+  - action: utter_filter_pain
+  - intent: low_pain
+  - action: utter_recomendation_pain1
+  - intent: mood_not_well
+  - action: utter_filter
+  - intent: mood_pain
+  - action: utter_filter_pain
+  - intent: medium_pain
+  - action: utter_recomendation_pain2
+  - intent: mood_not_well
+  - action: utter_filter
+  - intent: mood_pain
+  - action: utter_filter_pain
+  - intent: high_pain
+  - action: utter_recomendation_pain3
+  - intent: mood_not_well
+  - action: utter_filter
+  - intent: mood_desanimado
+  - action: utter_desanimado
+  - action: utter_sol_desanimado
+  - intent: mood_not_well
+  - action: utter_filter
+  - intent: outro
+  - action: utter_outro
+
+- story: interactive_story_1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_not_well
+  - action: utter_filter
+  - intent: mood_pain
+  - action: utter_filter_pain
+  - intent: medium_pain
+  - action: utter_recomendation_pain2
+
+- story: interactive_story_2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_not_well
+  - action: utter_filter
+  - intent: mood_desanimado
+  - action: utter_desanimado
+  - action: utter_sol_desanimado
+
+- story: interactive_story_3
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_not_well
+  - action: utter_filter
+  - intent: outro
+  - action: utter_outro
