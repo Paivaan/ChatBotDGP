@@ -70,31 +70,31 @@ responses:
   - text: "Sou um robô, fico a disposição de ajudá-lo."
 
   utter_esquecimento:
-  - text: "Tente lembrar os últimos lugares que deixou o objeto, acredito que isso irá ajudar!" 
+  - text: "Isso é algo complicado! Quando falamos de esquecimento isso ocorre em atitudes rotineiras que agimos no automático e não conseguimos nos recordar dos passos que fazemos. Recomendo que você se recorde da última vez que se lembra de ter visto seu objeto e depois de ter se lembrado, refaça os mesmos passos! Isso provavelmente irá te ajudar, além disso, comece a praticar atividades físicas e faça atividades que estimulem o raciocínio e a memória, isso irá ajudar a longo prazo! Agora, se começar a perceber que está tendo falhas de memórias frequentes em atividades que sempre exerceu, recomendo também que vá a um neurologista." 
 
   utter_ortopedista:
-  - text: "Procure um ortopedista para manter a saúde dos ossos e músculos em dia!"
+  - text: "Eita,voce ta precisando de um ortopedista viu. Calma...deixa que eu cuido disso pra você! Enquanto eu listo os melhores doutores para ti, peça para alguem lhe fazer chá e descanse os ossos...Pronto aqui estão os melhores doutores : https://ortoclinsorocaba.com.br/ https://www.institutodojoelho.com/ https://www.hospitalsantalucinda.com.br/hospital/servicos/ortopedia.html https://www.dradiliobernardes.com.br/"
 
   utter_cardiologista:
   - text: "Isso pode ser grave! Procure um cardiologista o quanto antes para melhores instruções e exames! E não se esqueça, o cardiologista é o médico que cuida do coração e do sistema circulatório. Assim, é responsável por diagnosticar e tratar as doenças que envolvem os componentes deste sistema. De acordo com a Organização Mundial da Saúde (OMS), as doenças cardiovasculares são as principais causas de morte no mundo!"
 
   utter_passandomal:
-  - text: "Isso pode ser ruim...Procure um familiar para poder te levar ao pronto-socorro! Também há o serviço do SAMU para atende-lo pelo número 192!"
+  - text: "Cuidado isso é pode ser grave, calma...fique onde está e busque um familiar mais próximo para ligar ao SAMU (NÚMERO 192), esse é um serviço de emergência que vai te levar são e salvo para o médico, mas até ele chegar, mantenha-se com alguém ao seu lado de companhia e peça pra ele documentos, remédios dentre outras informações importantes!"
 
   utter_neurologista:
-  - text: "Em caso de esquecimentos reccorentes, dores de cabeça muito fortes procure um neurologista! Atenção para os sinais de AVC como mãos tremendo e dificuldades para erguer os braços!"
+  - text: "Em caso de esquecimentos recorrentes, dores de cabeça muito fortes procure um neurologista! Atenção para os sinais de AVC como mãos tremendo e dificuldades para erguer os braços!"
 
   utter_alongamentos:
-  - text: "Procure fazer alongamentos todos os dias! Isso irá ajudar em suas elasticidade e fluxo sanguíneo! Acesse esse link que mostra alguns execícios básicos que você pode estar fazendo! https://www.youtube.com/watch?v=OwCTukZyEmA"
+  - text: "Procure fazer alongamentos todos os dias! Isso irá ajudar em suas elasticidade e fluxo sanguíneo, alguns alongamentos simples são: 1. Abraçar os joelhos: Como fazer: Deite-se com os costas na cama, traga os dois joelhos de encontro ao peito e abrace-os, puxando o bastante para sentir o alongamento da lombar e dos posteriores de coxas. 2. Torção de coluna: Como fazer: Mantenha as costas na cama e dobre os joelhos de modo que a planta dos pés encostem na cama. Abra os braços em cruz, com palmas das mãos no chão. Então, deite as duas pernas juntas para um lado, segure pelo tempo determinado e leve-as para o outro lado. Mantenha a postura. Os ombros devem permanecer encostados no colchão. 3. Extensão de perna para o alto: Como fazer: Ainda com os braços em posição de cruz, estique as duas pernas. Traga apenas uma delas para o alto o máximo que conseguir sem dobrar o joelho. Segure pelo tempo indicado e repita com a outra."
 
   utter_exercicios:
   - text: "Que bacana! Exercícios físicos deixam você mais revigorado e animado, vamos começar os treinos então! Algumas sugestões de exercícios físicos para você: 1. Natação  2. Hidroginástica  3. Caminhada  4. Alongamento  5. Musculação  6. Dança  7. Pilates"
 
   utter_psicologo:
-  - text: "Por que não conversar sobre isso com um psicolólogo ou alguma pessoa próxima?"
+  - text: "Entendo que o sentimento é ruim. Todos temos dias que não nos sentimentos bem. É bem difícil compreender os sentimentos ou o que devemos fazer com eles. Se você gostaria de compreender melhor seus sentimentos, talvez devesse procurar um psicólogo, ele te instruirá a lidar com as emoções e como reagir a elas, outra coisa que eu recomendo é que leia um pouco sobre inteligência emocional, isso é muito legal, é uma ferramenta que pode ser usada em todas as situações da vida. Agora, um ponto importante, se você está se sentindo mal psicologicamente com frequência, recomendo que vá ao medico! Em específico um psiquiatra, nada que é ruim e recorrente é bom!"
 
   utter_nutricionista:
-  - text: "Procure comer alimentos ricos em fibras e vitaminas! Para mais informações consulte um nutricionista, tenho certeza que ele irá poder te ajudar em uma alimentação mais saudável!"
+  - text: "Beba bastante água! Evite comer comidas ricas em gorduras saturadas e com muito açúcar e opte por uma alimentação rica em fibras e vitaminas. Como por exemplo, procure comer saladas com bastante cores com mais frequência, carnes mais magras como frango (evite a pele), e evite consumir refrigerantes, produtos ultra processados e massas. Procure um nutricionista para instruir melhor a sua alimentação, receitando dietas adequadas para obter uma melhora na qualidade de vida e evitar problemas cardiovasculares."
 
   utter_remedio:
   - text: "Hoje você deve tomar: Glifage para sua diabetes (2 comprimidos durante o café da manhã e 2 durante o jantar) e Losartana para pressão alta (às 10 horas)"
